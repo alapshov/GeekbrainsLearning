@@ -4,9 +4,9 @@ import javax.swing.*;
 import java.util.Random;
 import java.util.Scanner;
 
-public class GameMap extends JFrame {
-    private static final Scanner SCANNER = new Scanner(System.in);
-    private static final Random RANDOM = new Random();
+public class GameMap extends JPanel {
+    public static final int MODE_VS_AI = 0;
+    public static final int MODE_VS_HUMAN = 1;
     private static final char DOT_HUMAN = 'X';
     private static final char DOT_AI = '0';
     private static final char DOT_EMPTY = '.';
@@ -19,20 +19,11 @@ public class GameMap extends JFrame {
     private static int scoreAI;
 
 
-//    public static void main(String[] args) {
-//        while (true) {
-//            playRound();
-//            System.out.printf("SCORE IS: HUMAN   AI\n            %d     %d\n", scoreHuman, scoreAI);
-//            System.out.print("Wanna play again? Y or N >>> ");
-//            if (!SCANNER.next().toLowerCase().equals("y")) break;
-//        }
-//    }
-
     private static void playRound() {
         initField(3, 3);
         printField();
         while (true) {
-            humanTurn();
+          //  humanTurn();
             printField();
             if (gameCheck(DOT_HUMAN)) break;
             aiTurn();
@@ -123,8 +114,8 @@ public class GameMap extends JFrame {
 
         for (int i = 0; i < 5; i++) {
             do {
-                x = RANDOM.nextInt(fieldSizeX);
-                y = RANDOM.nextInt(fieldSizeY);
+//                x = RANDOM.nextInt(fieldSizeX);
+//                y = RANDOM.nextInt(fieldSizeY);
             } while (!isCellEmpty(y, x));
 
             if (checkWin(DOT_AI)) {
@@ -136,17 +127,6 @@ public class GameMap extends JFrame {
 
     }
 
-    private static void humanTurn() {
-        int x, y;
-
-        do {
-            System.out.print("Please enter coordinates of your turn x & y with whitespace >>>>");
-            x = SCANNER.nextInt() - 1;
-            y = SCANNER.nextInt() - 1;
-        } while (!isCellValid(y, x) || !isCellEmpty(y, x));
-
-        field[y][x] = DOT_HUMAN;
-    }
 
     private static boolean isCellValid(int y, int x) {
         return x >= 0 && y >= 0 && x < fieldSizeX && y < fieldSizeY;
@@ -186,5 +166,8 @@ public class GameMap extends JFrame {
             System.out.print("-");
         }
         System.out.println();
+    }
+
+    public void startNewGame(int gameMode, int fieldSize, int winLength) {
     }
 }

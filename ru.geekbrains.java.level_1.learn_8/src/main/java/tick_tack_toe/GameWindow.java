@@ -22,7 +22,7 @@ public class GameWindow extends JFrame {
         buttonPanel.add(btnStop);
 
         gameMap = new GameMap();
-        final SettingsWindow settingsWindow = new SettingsWindow();
+        final SettingsWindow settingsWindow = new SettingsWindow(this);
 
         add(gameMap, BorderLayout.CENTER);
         add(buttonPanel, BorderLayout.SOUTH);
@@ -32,5 +32,7 @@ public class GameWindow extends JFrame {
         btnStop.addActionListener(e -> System.exit(0));
     }
 
-
+    public void startGame(int gameMode, int fieldSize, int winLength){
+        gameMap.startNewGame(gameMode, fieldSize, winLength);
+    }
 }
