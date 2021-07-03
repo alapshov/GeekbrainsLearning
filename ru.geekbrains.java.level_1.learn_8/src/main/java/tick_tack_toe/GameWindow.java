@@ -34,5 +34,6 @@ public class GameWindow extends JFrame {
 
     public void startGame(int gameMode, int fieldSize, int winLength){
         gameMap.startNewGame(gameMode, fieldSize, winLength);
+        String str = "dadawdawd";
     }
 }
