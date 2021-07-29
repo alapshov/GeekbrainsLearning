@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/GeekbrainsLearning.iml" filepath="$PROJECT_DIR$/.idea/GeekbrainsLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/chat.iml" filepath="$PROJECT_DIR$/chat/chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/chat_client/chat_client.iml" filepath="$PROJECT_DIR$/chat/chat_client/chat_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/chat_server/chat_server.iml" filepath="$PROJECT_DIR$/chat/chat_server/chat_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_1/ru.geekbrains.java.level_1.learn_1.iml" filepath="$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_1/ru.geekbrains.java.level_1.learn_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_2/ru.geekbrains.java.level_1.learn_2.iml" filepath="$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_2/ru.geekbrains.java.level_1.learn_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_3/ru.geekbrains.java.level_1.learn_3.iml" filepath="$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_3/ru.geekbrains.java.level_1.learn_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_4/ru.geekbrains.java.level_1.learn_4.iml" filepath="$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_4/ru.geekbrains.java.level_1.learn_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_5/ru.geekbrains.java.level_1.learn_5.iml" filepath="$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_5/ru.geekbrains.java.level_1.learn_5.iml" />
+    </modules>
+  </component>
+</project>
