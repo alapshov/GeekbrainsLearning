@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -11,19 +12,18 @@
         <module name="ru.geekbrains.java.level_1.learn_1" />
         <module name="chat_client" />
         <module name="ru.geekbrains.java.level_1.learn_2" />
+        <module name="ru.geekbrains.java.level_2.learn_5" />
         <module name="chat_server" />
+        <module name="ru.geekbrains.chat_server" />
         <module name="ru.geekbrains.java.level_1.learn_5" />
+        <module name="ru.geekbrains.chat_client" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="chat" target="11" />
-      <module name="chat_client" target="11" />
-      <module name="chat_server" target="11" />
-      <module name="ru.geekbrains.java.level_1.learn_1" target="8" />
-      <module name="ru.geekbrains.java.level_1.learn_2" target="8" />
-      <module name="ru.geekbrains.java.level_1.learn_3" target="8" />
-      <module name="ru.geekbrains.java.level_1.learn_4" target="8" />
-      <module name="ru.geekbrains.java.level_1.learn_5" target="8" />
+    <bytecodeTargetLevel target="11">
+      <module name="ru.geekbrains.chat" target="11" />
+      <module name="ru.geekbrains.chat_client" target="11" />
+      <module name="ru.geekbrains.chat_server" target="11" />
+      <module name="ru.geekbrains.java.level_2.learn_5" target="1.11" />
     </bytecodeTargetLevel>
   </component>
 </project>
