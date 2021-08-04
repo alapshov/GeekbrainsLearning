@@ -3,7 +3,7 @@ package ru.geekbrains.chat;
 import java.io.*;
 import java.net.Socket;
 
-public class Client {
+public class ConsoleClient {
     private static final String HOST = "localhost";
     private static final int PORT = 8090;
     private DataOutputStream out;
@@ -12,7 +12,7 @@ public class Client {
 
 
     public static void main(String[] args) {
-        new Client().start();
+        new ConsoleClient().start();
     }
 
     public void start() {
