@@ -5,30 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ee8f046-a070-4e26-800f-9c151fa1a615" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ru.geekbrains.java.level_2.learn_5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ru.geekbrains.java.level_2.learn_5/ru.geekbrains.java.level_2.learn_5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GeekbrainsLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GeekbrainsLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_15_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_15_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_15_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_15_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_15_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_15_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_15_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_15_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_15_0_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_client/target/classes/ru/geekbrains/chat/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_client/target/classes/ru/geekbrains/chat/Launcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_client/target/classes/ru/geekbrains/chat/MainChatController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_1/target/classes/HomeWorkApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_2/target/classes/BasicConstructions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_3/target/classes/ArraysHomeWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_4/target/classes/TikTakToeGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_5/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru.geekbrains.java.level_1.learn_5/target/classes/Staff.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +75,7 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/chat/pom.xml" />
   </component>
-  <component name="RunManager" selected="Application.Launcher">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.chat.App" />
       <module name="chat_client" />
@@ -104,9 +89,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppServer" />
+      <module name="ru.geekbrains.chat_server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArraysThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysThread" />
       <module name="ru.geekbrains.java.level_2.learn_5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.chat.Client" />
+      <module name="ru.geekbrains.chat_client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,34 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ru.geekbrains.java.level_1.learn_5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TikTakToeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TikTakToeGame" />
-      <module name="ru.geekbrains.java.level_1.learn_4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TikTakToeGame" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.AppServer" />
       <item itemvalue="Application.Launcher" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.ArraysThread" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppServer" />
         <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.ArraysThread" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TikTakToeGame" />
       </list>
     </recent_temporary>
   </component>
