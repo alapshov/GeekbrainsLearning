@@ -24,6 +24,7 @@ public class MainChatController implements Initializable, MessageProcessor {
     public ListView<String> contactList;
     public TextField inputField;
     public Button btnSendMessage;
+    public static String selectedContact;
 
 
     public void mockAction(ActionEvent actionEvent) {
@@ -35,7 +36,8 @@ public class MainChatController implements Initializable, MessageProcessor {
     public void sendMessage(ActionEvent actionEvent) {
         String text = inputField.getText();
         if (text.isEmpty()) return;
-        chatMessageService.send(this.nickName + ": " + text);
+        selectedContact =  contactList.getSelectionModel().getSelectedItem();
+        chatMessageService.send(selectedContact + ": " + this.nickName + ": " + text);
         inputField.clear();
     }
 
@@ -50,6 +52,7 @@ public class MainChatController implements Initializable, MessageProcessor {
         chatMessageService.connect();
         chatMessageService.send("auth: " + loginField.getText() + " " + passwordField.getText());
     }
+
 
     private void parseMessage(String message) {
         if (message.startsWith("authok: ")) {

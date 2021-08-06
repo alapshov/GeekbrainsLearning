@@ -9,9 +9,10 @@ import java.util.List;
 
 public class Server {
 
-    private static final int PORT = 8089;
+    private static final int PORT = 5346;
     private AuthService authService;
     private List<ChatClientHandler> chatClientHandlers;
+    private ChatClientHandler clientHandler;
 
     public Server() {
         this.authService = new InMemoryAuthService();
@@ -25,7 +26,8 @@ public class Server {
                 System.out.println("Waiting for connection......");
                 Socket socket = serverSocket.accept();
                 System.out.println("Client connected");
-                new ChatClientHandler(socket, this).handle();
+                clientHandler = new ChatClientHandler(socket, this);
+                clientHandler.handle();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -35,6 +37,15 @@ public class Server {
     public void broadcastMessage(String message) {
         for (ChatClientHandler handler : chatClientHandlers) {
             handler.sendMessage(message);
+        }
+    }
+
+    public void privateMessage(String message) {
+        for (ChatClientHandler handler : chatClientHandlers) {
+            if(message.startsWith(handler.getCurrentUser())) {
+                message = message.split(":", 2)[1];
+                handler.sendMessage(message);
+            }
         }
     }
 

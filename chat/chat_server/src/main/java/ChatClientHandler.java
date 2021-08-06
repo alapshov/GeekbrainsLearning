@@ -15,6 +15,7 @@ public class ChatClientHandler {
     private Server server;
     private String currentUser;
 
+
     public ChatClientHandler(Socket socket, Server server) {
         try {
             this.socket = socket;
@@ -34,7 +35,7 @@ public class ChatClientHandler {
                 while (!Thread.currentThread().isInterrupted() && socket.isConnected()) {
                     String message = in.readUTF();
                     System.out.printf("Client #%s: %s\n", this.currentUser, message);
-                    server.broadcastMessage(message);
+                    server.privateMessage(message);
                 }
             } catch (IOException e) {
                 e.printStackTrace();
@@ -44,6 +45,7 @@ public class ChatClientHandler {
         });
         handlerThread.start();
     }
+
 
     private void authorize() {
         while (true) {
