@@ -3,16 +3,16 @@ package ru.geekbrains.chat;
 import java.io.*;
 import java.net.Socket;
 
-public class Client {
+public class ConsoleClient {
     private static final String HOST = "localhost";
-    private static final int PORT = 8090;
+    private static final int PORT = 5346;
     private DataOutputStream out;
     private DataInputStream in;
     private Thread clientConsoleThread;
 
 
     public static void main(String[] args) {
-        new Client().start();
+        new ConsoleClient().start();
     }
 
     public void start() {
