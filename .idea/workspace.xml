@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ee8f046-a070-4e26-800f-9c151fa1a615" name="Default Changelist" comment="Task_7">
+    <list default="true" id="3ee8f046-a070-4e26-800f-9c151fa1a615" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ru.geekbrains.java.level_2.learn_1/ru.geekbrains.java.level_2.learn_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ru.geekbrains.java.level_3.learn_1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ru.geekbrains.java.level_3.learn_1/ru.geekbrains.java.level_3.learn_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/ConsoleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/ConsoleClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/MainChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/MainChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/net/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/net/NetworkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_client/target/classes/ru/geekbrains/chat/MainChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_client/target/classes/ru/geekbrains/chat/MainChatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_server/src/main/java/ChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_server/src/main/java/ChatClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_server/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_server/src/main/java/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_server/target/classes/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_server/target/classes/Server.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/chat/pom.xml" />
   </component>
-  <component name="RunManager" selected="Application.Launcher">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.chat.App" />
       <module name="chat_client" />
@@ -115,9 +114,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsoleClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.chat.ConsoleClient" />
-      <module name="ru.geekbrains.chat_client" />
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.chat.Launcher" />
+      <module name="chat_client" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.geekbrains.chat.*" />
@@ -128,11 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Launcher" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.chat.Launcher" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fruit.Main" />
+      <module name="ru.geekbrains.java.level_3.learn_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.geekbrains.chat.*" />
+          <option name="PATTERN" value="fruit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,17 +144,17 @@
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.AppServer" />
       <item itemvalue="Application.Launcher" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.ArraysThread" />
-      <item itemvalue="Application.ConsoleClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Launcher" />
-        <item itemvalue="Application.AppServer" />
-        <item itemvalue="Application.ConsoleClient" />
         <item itemvalue="Application.ArraysThread" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.AppServer" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -265,21 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627585746518</updated>
     </task>
-    <task id="LOCAL-00015" summary="Task_6">
-      <created>1628096609640</created>
+    <task id="LOCAL-00015" summary="level_3_task_1">
+      <created>1632343322033</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1628096609640</updated>
+      <updated>1632343322033</updated>
     </task>
-    <task id="LOCAL-00016" summary="Task_7">
-      <created>1628105930606</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1628105930606</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,20 +298,29 @@
     <MESSAGE value="level_2_task_4" />
     <MESSAGE value="c" />
     <MESSAGE value="Task_5" />
-    <MESSAGE value="Task_6" />
-    <MESSAGE value="Task_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task_7" />
+    <MESSAGE value="level_3_task_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="level_3_task_1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chat/chat_server/src/main/java/Server.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/ru.geekbrains.java.level_3.learn_1/src/main/java/Main.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ru.geekbrains.java.level_3.learn_1/src/main/java/fruit/Box.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

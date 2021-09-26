@@ -15,15 +15,19 @@
         <module name="ru.geekbrains.java.level_2.learn_5" />
         <module name="chat_server" />
         <module name="ru.geekbrains.chat_server" />
+        <module name="ru.geekbrains.java.level_3.learn_1" />
         <module name="ru.geekbrains.java.level_1.learn_5" />
         <module name="ru.geekbrains.chat_client" />
+        <module name="ru.geekbrains.java.level_2.learn_1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="ru.geekbrains.chat" target="11" />
       <module name="ru.geekbrains.chat_client" target="11" />
       <module name="ru.geekbrains.chat_server" target="11" />
+      <module name="ru.geekbrains.java.level_2.learn_1" target="1.5" />
       <module name="ru.geekbrains.java.level_2.learn_5" target="1.11" />
+      <module name="ru.geekbrains.java.level_3.learn_1" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

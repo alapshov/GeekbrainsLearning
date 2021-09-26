@@ -6,7 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/chat/ru.geekbrains.chat.iml" filepath="$PROJECT_DIR$/chat/ru.geekbrains.chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/chat/chat_client/ru.geekbrains.chat_client.iml" filepath="$PROJECT_DIR$/chat/chat_client/ru.geekbrains.chat_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/chat/chat_server/ru.geekbrains.chat_server.iml" filepath="$PROJECT_DIR$/chat/chat_server/ru.geekbrains.chat_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.java.level_2.learn_1/ru.geekbrains.java.level_2.learn_1.iml" filepath="$PROJECT_DIR$/ru.geekbrains.java.level_2.learn_1/ru.geekbrains.java.level_2.learn_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.java.level_2.learn_5/ru.geekbrains.java.level_2.learn_5.iml" filepath="$PROJECT_DIR$/ru.geekbrains.java.level_2.learn_5/ru.geekbrains.java.level_2.learn_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.java.level_3.learn_1/ru.geekbrains.java.level_3.learn_1.iml" filepath="$PROJECT_DIR$/ru.geekbrains.java.level_3.learn_1/ru.geekbrains.java.level_3.learn_1.iml" />
     </modules>
   </component>
 </project>
