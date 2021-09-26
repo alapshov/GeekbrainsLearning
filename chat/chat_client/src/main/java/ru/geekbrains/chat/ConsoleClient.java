@@ -5,7 +5,7 @@ import java.net.Socket;
 
 public class ConsoleClient {
     private static final String HOST = "localhost";
-    private static final int PORT = 5346;
+    private static final int PORT = 5347;
     private DataOutputStream out;
     private DataInputStream in;
     private Thread clientConsoleThread;

@@ -1,5 +1,6 @@
 import auth.AuthService;
 import auth.InMemoryAuthService;
+import auth.JDBCAuthService;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -9,13 +10,13 @@ import java.util.List;
 
 public class Server {
 
-    private static final int PORT = 5346;
+    private static final int PORT = 5347;
     private AuthService authService;
     private List<ChatClientHandler> chatClientHandlers;
     private ChatClientHandler clientHandler;
 
     public Server() {
-        this.authService = new InMemoryAuthService();
+        this.authService = new JDBCAuthService();
         this.chatClientHandlers = new ArrayList<>();
     }
 
