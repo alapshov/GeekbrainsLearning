@@ -8,6 +8,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
 import ru.geekbrains.chat.net.ChatMessageService;
+import ru.geekbrains.chat.net.LogService;
 import ru.geekbrains.chat.net.MessageProcessor;
 
 import java.net.URL;
@@ -38,6 +39,7 @@ public class MainChatController implements Initializable, MessageProcessor {
         if (text.isEmpty()) return;
         selectedContact =  contactList.getSelectionModel().getSelectedItem();
         chatMessageService.send(selectedContact + ": " + this.nickName + ": " + text);
+        LogService.writeChatLog(this.nickName, this.nickName + ": " + text);
         inputField.clear();
     }
 
