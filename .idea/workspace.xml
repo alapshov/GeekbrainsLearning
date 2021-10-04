@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ee8f046-a070-4e26-800f-9c151fa1a615" name="Default Changelist" comment="">
+    <list default="true" id="3ee8f046-a070-4e26-800f-9c151fa1a615" name="Default Changelist" comment="промежуточный коммит">
+      <change afterPath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/net/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nick1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_client/ru.geekbrains.chat_client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_client/ru.geekbrains.chat_client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_server/ru.geekbrains.chat_server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_server/ru.geekbrains.chat_server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/ru.geekbrains.chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chat/ru.geekbrains.chat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/MainChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/MainChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/chat_client/target/classes/ru/geekbrains/chat/MainChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_client/target/classes/ru/geekbrains/chat/MainChatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/chat_server/target/classes/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_server/target/classes/Server.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="level_3_task_2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +77,7 @@
       <recent name="D:\Программирование\GitRepository\GeekbrainsLearning\chat\chat_server\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Launcher">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.chat.App" />
       <module name="chat_client" />
@@ -119,7 +120,7 @@
     </configuration>
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.chat.Launcher" />
-      <module name="chat_client" />
+      <module name="ru.geekbrains.chat_client" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.geekbrains.chat.*" />
@@ -152,11 +153,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.AppServer" />
         <item itemvalue="Application.ArraysThread" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Launcher" />
-        <item itemvalue="Application.AppServer" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632692672734</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="промежуточный коммит">
+      <created>1633032129689</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1633032129690</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
