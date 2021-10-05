@@ -5,19 +5,23 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 
 public class ChatClientHandler {
     private Socket socket;
     private DataOutputStream out;
     private DataInputStream in;
-    private Thread handlerThread;
+    //private Thread handlerThread;
+    private ExecutorService handlerThread;
     private Server server;
     private String currentUser;
 
 
     public ChatClientHandler(Socket socket, Server server) {
         try {
+            handlerThread = Executors.newFixedThreadPool(12);
             this.socket = socket;
             this.in = new DataInputStream(socket.getInputStream());
             this.out = new DataOutputStream(socket.getOutputStream());
@@ -29,7 +33,7 @@ public class ChatClientHandler {
     }
 
     public void handle() {
-        handlerThread = new Thread(() -> {
+        handlerThread.execute(() -> {
             authorize();
             try {
                 while (!Thread.currentThread().isInterrupted() && socket.isConnected()) {
@@ -43,7 +47,7 @@ public class ChatClientHandler {
                 server.removeAuthorizedClientFromList(this);
             }
         });
-        handlerThread.start();
+        handlerThread.shutdown();
     }
 
 
@@ -70,9 +74,9 @@ public class ChatClientHandler {
         }
     }
 
-    public Thread getHandlerThread() {
-        return handlerThread;
-    }
+//    public Thread getHandlerThread() {
+//        return handlerThread;
+//    }
 
     public String getCurrentUser() {
         return currentUser;
