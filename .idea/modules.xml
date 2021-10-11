@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GeekbrainsLearning.iml" filepath="$PROJECT_DIR$/.idea/GeekbrainsLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/level_3_learn_5/level_3_learn_5.iml" filepath="$PROJECT_DIR$/level_3_learn_5/level_3_learn_5.iml" />
       <module fileurl="file://$PROJECT_DIR$/chat/ru.geekbrains.chat.iml" filepath="$PROJECT_DIR$/chat/ru.geekbrains.chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/chat/chat_client/ru.geekbrains.chat_client.iml" filepath="$PROJECT_DIR$/chat/chat_client/ru.geekbrains.chat_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/chat/chat_server/ru.geekbrains.chat_server.iml" filepath="$PROJECT_DIR$/chat/chat_server/ru.geekbrains.chat_server.iml" />
