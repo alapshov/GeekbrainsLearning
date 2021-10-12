@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ee8f046-a070-4e26-800f-9c151fa1a615" name="Default Changelist" comment="промежуточный коммит">
-      <change afterPath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/net/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nick1.txt" afterDir="false" />
+    <list default="true" id="52d5d3d0-87a1-4aaa-92d1-a4cd20feaaa1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/MainChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/MainChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_client/target/classes/ru/geekbrains/chat/MainChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_client/target/classes/ru/geekbrains/chat/MainChatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_server/target/classes/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_server/target/classes/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_3_learn_5/src/main/java/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/level_3_learn_5/src/main/java/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_3_learn_5/src/main/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/level_3_learn_5/src/main/java/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_3_learn_5/src/main/java/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/level_3_learn_5/src/main/java/Race.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,61 +21,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.4\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1tgM3m90J6tkBjRcVzH4aNoUnS2" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1zMflcGBRrCdnNPMuHjLby1gULi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chat/pom.xml" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/chat/pom.xml" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Программирование\GitRepository\GeekbrainsLearning\chat\chat_server\src\main\resources" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Launcher">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.chat.App" />
       <module name="chat_client" />
@@ -91,29 +60,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppServer" />
-      <module name="ru.geekbrains.chat_server" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ArraysThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysThread" />
       <module name="ru.geekbrains.java.level_2.learn_5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientApp" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.chat.ClientApp" />
-      <module name="ru.geekbrains.chat_client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.chat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,202 +93,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.AppServer" />
-      <item itemvalue="Application.Launcher" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.ArraysThread" />
-    </list>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <module name="level_3_learn_5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Launcher" />
-        <item itemvalue="Application.AppServer" />
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.ArraysThread" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Launcher" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3ee8f046-a070-4e26-800f-9c151fa1a615" name="Default Changelist" comment="" />
-      <created>1623186081791</created>
+      <changelist id="52d5d3d0-87a1-4aaa-92d1-a4cd20feaaa1" name="Default Changelist" comment="" />
+      <created>1633963033379</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1623186081791</updated>
+      <updated>1633963033379</updated>
     </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1623186817493</created>
+    <task id="LOCAL-00001" summary="гонки">
+      <created>1633965803936</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1623186817493</updated>
+      <updated>1633965803936</updated>
     </task>
-    <task id="LOCAL-00002" summary="task 1 done">
-      <created>1623188444577</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1623188444577</updated>
-    </task>
-    <task id="LOCAL-00003" summary="task 1 start">
-      <created>1623189108084</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1623189108084</updated>
-    </task>
-    <task id="LOCAL-00004" summary="task 1 start">
-      <created>1623189295272</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1623189295272</updated>
-    </task>
-    <task id="LOCAL-00005" summary="task 1 start">
-      <created>1623189355244</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1623189355244</updated>
-    </task>
-    <task id="LOCAL-00006" summary="task 1 start">
-      <created>1623189880462</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1623189880462</updated>
-    </task>
-    <task id="LOCAL-00007" summary="task 2">
-      <created>1623448194558</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1623448194558</updated>
-    </task>
-    <task id="LOCAL-00008" summary="task 2">
-      <created>1623965122936</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1623965122936</updated>
-    </task>
-    <task id="LOCAL-00009" summary="task 4">
-      <created>1624216466554</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1624216466554</updated>
-    </task>
-    <task id="LOCAL-00010" summary="task 5">
-      <created>1624396267123</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1624396267123</updated>
-    </task>
-    <task id="LOCAL-00011" summary="level_2_task_4">
-      <created>1627210695085</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1627210695086</updated>
-    </task>
-    <task id="LOCAL-00012" summary="level_2_task_4">
-      <created>1627210785444</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1627210785444</updated>
-    </task>
-    <task id="LOCAL-00013" summary="c">
-      <created>1627581487057</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1627581487057</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Task_5">
-      <created>1627585746518</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1627585746518</updated>
-    </task>
-    <task id="LOCAL-00015" summary="level_3_task_1">
-      <created>1632343322033</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1632343322033</updated>
-    </task>
-    <task id="LOCAL-00016" summary="промежуточный коммит">
-      <created>1632648538191</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1632648538191</updated>
-    </task>
-    <task id="LOCAL-00017" summary="промежуточный коммит">
-      <created>1632692672734</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1632692672734</updated>
-    </task>
-    <task id="LOCAL-00018" summary="промежуточный коммит">
-      <created>1633032129689</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1633032129690</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="first commit" />
-    <MESSAGE value="task 1 done" />
-    <MESSAGE value="task 1 start" />
-    <MESSAGE value="task 2" />
-    <MESSAGE value="task 4" />
-    <MESSAGE value="task 5" />
-    <MESSAGE value="level_2_task_4" />
-    <MESSAGE value="c" />
-    <MESSAGE value="Task_5" />
-    <MESSAGE value="level_3_task_1" />
-    <MESSAGE value="промежуточный коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="промежуточный коммит" />
-  </component>
-  <component name="XDebuggerManager">
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
-        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
-      </pinned-members>
-    </pin-to-top-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GeekbrainsLearning$AppServer.ic" NAME="AppServer Coverage Results" MODIFIED="1632665406576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/GeekbrainsLearning$ArraysHomeWork.ic" NAME="ArraysHomeWork Coverage Results" MODIFIED="1623960553692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <MESSAGE value="гонки" />
+    <option name="LAST_COMMIT_MESSAGE" value="гонки" />
   </component>
 </project>
