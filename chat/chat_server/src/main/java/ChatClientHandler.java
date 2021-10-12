@@ -1,5 +1,7 @@
 import error.UserNotFoundException;
 import error.WrongCredentialsException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -17,6 +19,7 @@ public class ChatClientHandler {
     private ExecutorService handlerThread;
     private Server server;
     private String currentUser;
+    private static final Logger LOGGER = LogManager.getLogger(ChatClientHandler.class);
 
 
     public ChatClientHandler(Socket socket, Server server) {
@@ -25,7 +28,8 @@ public class ChatClientHandler {
             this.socket = socket;
             this.in = new DataInputStream(socket.getInputStream());
             this.out = new DataOutputStream(socket.getOutputStream());
-            System.out.println("Handler created");
+            //System.out.println("Handler created");
+            LOGGER.info("Handler created");
             this.server = server;
         } catch (IOException e) {
             e.printStackTrace();
@@ -42,7 +46,7 @@ public class ChatClientHandler {
                     server.privateMessage(message);
                 }
             } catch (IOException e) {
-                e.printStackTrace();
+                LOGGER.error(e.getStackTrace());
             } finally {
                 server.removeAuthorizedClientFromList(this);
             }
@@ -64,8 +68,10 @@ public class ChatClientHandler {
                         break;
                     } catch (WrongCredentialsException e) {
                         sendMessage("ERROR: Wrong credentials");
+                        LOGGER.error("ERROR: Wrong credentials");
                     } catch (UserNotFoundException e) {
                         sendMessage("ERROR: User not found!");
+                        LOGGER.error("ERROR: User not found!");
                     }
                 }
             } catch (IOException e) {
