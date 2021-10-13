@@ -10,18 +10,20 @@
         <module name="ru.geekbrains.java.level_1.learn_3" />
         <module name="ru.geekbrains.java.level_1.learn_4" />
         <module name="ru.geekbrains.java.level_1.learn_1" />
-        <module name="chat_client" />
         <module name="ru.geekbrains.java.level_1.learn_2" />
         <module name="ru.geekbrains.java.level_2.learn_5" />
         <module name="chat_server" />
-        <module name="ru.geekbrains.chat_server" />
         <module name="ru.geekbrains.java.level_3.learn_1" />
+        <module name="level_2_task_7" />
         <module name="ru.geekbrains.java.level_1.learn_5" />
-        <module name="ru.geekbrains.chat_client" />
         <module name="ru.geekbrains.java.level_2.learn_1" />
+        <module name="chat_client" />
+        <module name="ru.geekbrains.chat_server" />
+        <module name="ru.geekbrains.chat_client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
+      <module name="level_2_task_7" target="11" />
       <module name="ru.geekbrains.chat" target="11" />
       <module name="ru.geekbrains.chat_client" target="11" />
       <module name="ru.geekbrains.chat_server" target="11" />

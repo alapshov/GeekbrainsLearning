@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ee8f046-a070-4e26-800f-9c151fa1a615" name="Default Changelist" comment="промежуточный коммит">
-      <change afterPath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/net/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nick1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_2_task_7/level_2_task_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_2_task_7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_2_task_7/src/main/java/TestEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_2_task_7/src/main/java/annotations/AfterSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_2_task_7/src/main/java/annotations/BeforeSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_2_task_7/src/main/java/annotations/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_2_task_7/src/test/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/level_2_task_7/src/test/java/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/MainChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_client/src/main/java/ru/geekbrains/chat/MainChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_client/target/classes/ru/geekbrains/chat/MainChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_client/target/classes/ru/geekbrains/chat/MainChatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/chat_server/target/classes/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/chat_server/target/classes/Server.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -32,7 +39,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="level_3_task_6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,7 +84,7 @@
       <recent name="D:\Программирование\GitRepository\GeekbrainsLearning\chat\chat_server\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Launcher">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.chat.App" />
       <module name="chat_client" />
@@ -131,33 +138,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fruit.Main" />
-      <module name="ru.geekbrains.java.level_3.learn_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fruit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="level_2_task_7" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ClientApp" />
       <item itemvalue="Application.AppServer" />
       <item itemvalue="Application.Launcher" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.ArraysThread" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.AppServer" />
         <item itemvalue="Application.ArraysThread" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -327,6 +329,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="промежуточный коммит" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/level_2_task_7/src/main/java/TestEngine.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
